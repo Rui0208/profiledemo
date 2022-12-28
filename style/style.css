@@ -1,0 +1,133 @@
+* {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f9fafa;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15vh;
+}
+
+nav p {
+  width: 30%;
+  font-size: 3rem;
+  padding: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+nav h2 {
+  margin-top: 48px;
+}
+
+nav list {
+  width: 60%;
+}
+
+nav list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+nav list li {
+  padding: 36px 20px;
+  font-size: 2rem;
+}
+
+nav list li a {
+  color: black;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .myPhoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 50%;
+}
+
+section .myPhoto img {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  border-radius: 35%;
+}
+
+section .aboutMe {
+  width: 50%;
+  margin: 0rem 2.5rem;
+}
+
+section .aboutMe h1 {
+  font-size: 4rem;
+}
+
+section .aboutMe p {
+  width: 50%;
+}
+
+footer {
+  margin: 0 5rem;
+  border-top: 0.1px solid black;
+  height: 25vh;
+}
+
+footer .ft1 {
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 2rem;
+  font-weight: bolder;
+}
+
+footer .ft1 .by {
+  margin-top: 1.5rem;
+}
+
+footer .ft2 {
+  font-size: 1.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .ft2 p {
+  padding: 5px 2.5rem;
+}
+
+footer .ft2 .app a {
+  padding: 0 0.75rem;
+  font-size: 2rem;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
